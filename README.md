@@ -97,7 +97,8 @@ npm run dev
 ```
 cd ..
 npx create-react-app frontend --use-npm
-cd frontend```
+cd frontend
+```
 
 📌 React 필수 패키지 설치
 ```
