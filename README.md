@@ -1,10 +1,10 @@
 MERN 스택 초기 세팅 가이드
 
 📌 사용한 버전
-MACBOOK-air-m2
-Node.js: v22.13.1  (사용한 버전 확인: node -v)
+MACBOOK-air-m2<br>
+Node.js: v22.13.1<br>
 
-npm: 10.9.2  (사용한 버전 확인: npm -v)
+npm: 10.9.2<br>
 ```
 FrontEnd
 {username}-ui-MacBookAir frontend % npm list react
