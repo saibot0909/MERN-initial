@@ -5,7 +5,7 @@ MACBOOK-air-m2
 Node.js: v22.13.1  (사용한 버전 확인: node -v)
 
 npm: 10.9.2  (사용한 버전 확인: npm -v)
-
+```
 FrontEnd
 {username}-ui-MacBookAir frontend % npm list react
 frontend@0.1.0 /Users/{username}/Documents/project/mern01/frontend
@@ -14,12 +14,16 @@ frontend@0.1.0 /Users/{username}/Documents/project/mern01/frontend
 ├─┬ react-scripts@5.0.1
 │ └── react@19.0.0 deduped
 └── react@19.0.0
+```
 
+```
 BackEnd
 {username}-ui-MacBookAir backend % npm list express
 backend@1.0.0 /Users/{username}/Documents/project/mern01/backend
 └── express@4.21.2
+```
 
+```
 MongoDB
 {username}-ui-MacBookAir backend % mongod --version
 db version v7.0.16
@@ -33,11 +37,14 @@ Build Info: {
         "target_arch": "aarch64"
     }
 }
+```
 
+```
 Mongoose
 {username}-ui-MacBookAir backend % npm list mongoose   
 backend@1.0.0 /Users/catsea/Documents/project/mern01/backend
 └── mongoose@8.9.6
+```
 
 🛠 MERN 스택 프로젝트 초기 세팅
 
