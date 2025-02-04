@@ -1,0 +1,18 @@
+# 모듈 무시
+node_modules/
+npm-debug.log
+package-lock.json
+
+# 빌드 결과물 무시
+dist/
+build/
+
+# 환경 변수 설정 파일 무시
+.env
+.env.local
+.env.*.local
+
+# Editor 관련 파일 무시
+.vscode/
+.idea/
+.DS_Store
