@@ -49,24 +49,24 @@ backend@1.0.0 /Users/catsea/Documents/project/mern01/backend
 🛠 MERN 스택 프로젝트 초기 세팅
 
 1️⃣ 프로젝트 폴더 생성
-
+```
 mkdir mern-project && cd mern-project
-
+```
 2️⃣ 백엔드(Node.js + Express) 설정
-
+```
 mkdir backend && cd backend
 npm init -y
-
+```
 📌 Express, Mongoose, CORS 등 필수 패키지 설치
-
+```
 npm install express mongoose dotenv cors body-parser
-
+```
 📌 개발 시 편의를 위한 추가 패키지 설치
-
+```
 npm install --save-dev nodemon
-
+```
 📌 backend/server.js 파일 생성 후 기본 서버 코드 추가
-
+```
 const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
@@ -79,37 +79,39 @@ app.use(cors());
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+```
 
 📌 nodemon을 사용해 서버 실행 (backend/package.json 수정)
-
+```
 "scripts": {
   "start": "node server.js",
   "dev": "nodemon server.js"
 }
+```
 
 서버 실행:
-
+```
 npm run dev
-
+```
 3️⃣ 프론트엔드(React) 설정
-
+```
 cd ..
 npx create-react-app frontend --use-npm
-cd frontend
+cd frontend```
 
 📌 React 필수 패키지 설치
-
+```
 npm install axios react-router-dom
-
+```
 📌 frontend/src/App.js 기본 코드
-
+```
 import React from "react";
 function App() {
   return <h1>Welcome to MERN Stack</h1>;
 }
 export default App;
-
+```
 React 실행:
-
+```
 npm start
-
+```
